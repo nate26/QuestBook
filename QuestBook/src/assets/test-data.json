@@ -1,0 +1,72 @@
+[
+    {
+        "index": 0,
+        "name": "The Castle's Many Secrets",
+        "xp": 300,
+        "description": "A group of delinquent students gathers at Hagrid's Hut for their detention. The gamekeeper has an important task for them to complete.",
+        "quest_type": 0,
+        "status": 1,
+        "sub_quests": [
+            {
+                "index": 0,
+                "name": "Meet hagrid at the gamekeeper's hut to serve out your detention.",
+                "status": 2
+            },
+            {
+                "index": 1,
+                "name": "Enter the Forbidden Forest to investigate the mysterious happenings within.",
+                "status": 2
+            },
+            {
+                "index": 2,
+                "name": "Search for more information about this mysterious shadow.",
+                "status": 2
+            },
+            {
+                "index": 3,
+                "name": "Find a way into Slytherin's lost study.",
+                "status": 2
+            },
+            {
+                "index": 4,
+                "name": "Locate Slytherin's study.",
+                "status": 1
+            },
+            {
+                "index": 5,
+                "name": "Visit Professor Dumbledore in his office.",
+                "status": 0
+            }
+        ]
+    },
+    {
+        "index": 1,
+        "name": "Adventure Time",
+        "xp": 0,
+        "description": "In order to find quest and gain xp, you have to sign up for the Adventurer's Club. Free starting gear is given to all new members.",
+        "quest_type": 0,
+        "status": 2,
+        "sub_quests": [
+            {
+                "index": 0,
+                "name": "Sign up for the Adventurer's Club in the Great Hall.",
+                "status": 2
+            }
+        ]
+    },
+    {
+        "index": 0,
+        "name": "Symbols of an Ancient Language",
+        "xp": 9999,
+        "description": "In order to find quest and gain xp, you have to sign up for the Adventurer's Club. Free starting gear is given to all new members.",
+        "quest_type": 1,
+        "status": 0,
+        "sub_quests": [
+            {
+                "index": 0,
+                "name": "Find a way to transcribe this mysterious book.",
+                "status": 0
+            }
+        ]
+    }
+]

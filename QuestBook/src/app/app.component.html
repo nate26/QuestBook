@@ -1,0 +1,25 @@
+<div class="background">
+    
+    <div class="questbook">
+
+        <h2>{{title}}</h2>
+
+        <p-scrollPanel [style]="{width: '100%', height: 'calc(80vh - 330px)'}">
+
+            <p-accordion [multiple]="true">
+                <p-accordionTab header="Main Quests" *ngIf="mainQuests$ | async as mainQuests" [selected]="true">
+                    <app-quest-list [quests]="mainQuests"></app-quest-list>
+                </p-accordionTab>
+                <p-accordionTab header="Side Quests" *ngIf="sideQuests$ | async as sideQuests" [selected]="true">
+                    <app-quest-list [quests]="sideQuests"></app-quest-list>
+                </p-accordionTab>
+                <p-accordionTab header="Completed Quests" *ngIf="completedQuests$ | async as completedQuests" [selected]="true">
+                    <app-quest-list [quests]="completedQuests"></app-quest-list>
+                </p-accordionTab>
+            </p-accordion>
+
+        </p-scrollPanel>
+        
+    </div>
+
+</div>

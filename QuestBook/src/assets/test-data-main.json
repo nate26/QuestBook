@@ -1,0 +1,42 @@
+[
+    {
+        "index": 0,
+        "name": "The Castle's Many Secrets",
+        "xp": 300,
+        "description": "A group of delinquent students gathers at Hagrid's Hut for their detention. The gamekeeper has an important task for them to complete.",
+        "quest_type": 0,
+        "status": 1,
+        "sub_quests": [
+            {
+                "index": 0,
+                "name": "Meet Hagrid at the gamekeeper's hut to serve out your detention.",
+                "status": 2
+            },
+            {
+                "index": 1,
+                "name": "Enter the Forbidden Forest to investigate the mysterious happenings within.",
+                "status": 2
+            },
+            {
+                "index": 2,
+                "name": "Search for more information about this mysterious shadow.",
+                "status": 2
+            },
+            {
+                "index": 3,
+                "name": "Find a way into Slytherin's lost study.",
+                "status": 2
+            },
+            {
+                "index": 4,
+                "name": "Locate Slytherin's study.",
+                "status": 1
+            },
+            {
+                "index": 5,
+                "name": "Visit Professor Dumbledore in his office.",
+                "status": 0
+            }
+        ]
+    }
+]

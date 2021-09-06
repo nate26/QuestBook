@@ -1,0 +1,17 @@
+[
+    {
+        "index": 1,
+        "name": "Adventure Time",
+        "xp": 0,
+        "description": "In order to find quest and gain xp, you have to sign up for the Adventurer's Club. Free starting gear is given to all new members.",
+        "quest_type": 0,
+        "status": 2,
+        "sub_quests": [
+            {
+                "index": 0,
+                "name": "Sign up for the Adventurer's Club in the Great Hall.",
+                "status": 2
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+<div *ngFor="let quest of quests">
+    <div class="questlist" *ngIf="questStarted(quest)">
+        <h4>
+            🖛 
+            <strong>{{quest.name}}</strong>
+            <span class="xp" *ngIf="quest.xp"> - {{quest.xp}}xp</span>
+        </h4>
+        <p class="description">{{quest.description}}</p>
+        <div *ngFor="let subQuest of quest.sub_quests">
+            <h5 *ngIf="questStarted(subQuest)">
+                <span *ngIf="questCompleted(subQuest)">🖛 </span>
+                <span *ngIf="!questCompleted(subQuest)">🖙 </span>
+                {{subQuest.name}}
+            </h5>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+[
+    {
+        "index": 0,
+        "name": "Symbols of an Ancient Language",
+        "xp": 9999,
+        "description": "In order to find quest and gain xp, you have to sign up for the Adventurer's Club. Free starting gear is given to all new members.",
+        "quest_type": 1,
+        "status": 0,
+        "sub_quests": [
+            {
+                "index": 0,
+                "name": "Find a way to transcribe this mysterious book.",
+                "status": 0
+            }
+        ]
+    },
+    {
+        "index": 0,
+        "name": "Test Side Quest",
+        "xp": 100,
+        "description": "Description goes here.",
+        "quest_type": 1,
+        "status": 1,
+        "sub_quests": [
+            {
+                "index": 0,
+                "name": "Some sub task...",
+                "status": 1
+            }
+        ]
+    }
+]

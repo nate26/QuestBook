@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: "MrJeeves";
+    src: url("./mr-eaves-small-caps.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "ScalySans";
+    src: url("./scaly-sans.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "ScalySansSmallCaps";
+    src: url("./scaly-sans-caps.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Booksanity";
+    src: url("./bookinsanity.ttf") format("opentype");
+}
