@@ -3,9 +3,9 @@
         <h4>
             🖛 
             <strong>{{quest.name}}</strong>
-            <span class="xp" *ngIf="quest.xp"> - {{quest.xp}}xp</span>
+            <span *ngIf="quest.xp"> - {{quest.xp}}xp</span>
         </h4>
-        <p class="description">{{quest.description}}</p>
+        <p class="description">{{quest.description}}</p> <!-- make a function to get the description of the in progress sub task-->
         <div *ngFor="let subQuest of quest.sub_quests">
             <h5 *ngIf="questStarted(subQuest)">
                 <span *ngIf="questCompleted(subQuest)">🖛 </span>
